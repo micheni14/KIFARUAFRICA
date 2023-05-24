@@ -13,12 +13,11 @@ import { Routes, Route } from 'react-router-dom'
 function App() {
   return (
     <>
-
-        
+  <Navbar />
       <Routes>
         <Route path='/' element={ 
           <>
-            <Navbar />
+  
       <Hero />
       <About />
       <Projects />
@@ -32,7 +31,7 @@ function App() {
 
 
         <Route path='/blog' element={<Blog /> }/>
-        
+
       </Routes>
     
 
