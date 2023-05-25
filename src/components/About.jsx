@@ -10,7 +10,7 @@ function About() {
         <img src={pic} alt="About"  />
     </div>
     <div className="md:w-1/2 px-2">
-        <h2 className="text-3xl font-bold mb-4 pt-10">About Us</h2>
+        <h2 className="text-3xl font-bold mb-4 pt-10 text-black">About Us</h2>
         <p className="text-lg mb-4">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor magna id
         magna aliquam, vitae commodo nulla condimentum. Duis non risus non mauris

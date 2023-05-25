@@ -85,7 +85,7 @@ const Navbar = () => {
             </li>
         </ul>
         <div>
-                <div className="mr-10 bg">
+                <div className="mr-10 ">
                 <button className="bg-ourGreen px-5 py-3 rounded-full">Get started</button>
 
         </div>
@@ -184,6 +184,7 @@ const Navbar = () => {
             >
                 Blog
             </Link> */}
+            <RouterLink  to='/blog'>Blog</RouterLink>
             </li>
             <li className="cursor-pointer">
             <Link
@@ -196,13 +197,13 @@ const Navbar = () => {
             >
                 Contact
             </Link>
-            </li>
+                        </li>
+                        <div className="mr-10 ">
+                <button className="bg-ourGreen px-6 py-4 rounded-full">Get started</button>
+        </div>
         </ul>
         <div>
-                {/* <div className="mr-10 bg">
-                <button className="bg-ourGreen px-5 py-3 rounded-full">Get started</button>
-
-        </div> */}
+            
         </div>
         </div>
     
