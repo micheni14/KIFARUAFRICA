@@ -20,7 +20,7 @@ const handleSubmit = (e) => {
         <div className="max-w-md mx-auto">
             <form
             onSubmit={handleSubmit}
-            className="bg-white shadow-md rounded px-8 pt-8 pb-6 mb-4"
+            className="bg-white shadow-md rounded px-8 pt-8 pb-6 mb-4 "
             style={{ width: '500px' }} // Adjust the width to make it bigger
             >
             <div className="mb-4">

@@ -9,7 +9,7 @@ const [openModal, setOpenModal] = useState(false);
     
             <Fragment>
     <div className='pt-20' id= "contact">
-        <div className=' md:grid grid-cols-2 p-2'>
+        <div className=' md:grid grid-cols-2 p-'>
             <div className='p-20 bg-ourGreen text-white text-start'>
                 <p>You wanna reach out?</p>
                 <p className='text-7xl py-10 flex  justify-center items-center'>Let's work together</p>
@@ -37,15 +37,13 @@ const [openModal, setOpenModal] = useState(false);
     </ul>
 </div>
 
-                    <div className='pt-20'>
-                        <p className='text-white 2xl'>Say hello</p>
+                    <div className='p-4 sm:p-8'>
+                        <p className='text-white text-xl sm:text-2xl'>Say hello</p>
                         <p className='text-gray-400'>admin@example.co.ke</p>
                         <p className='text-gray-400'>hr@example.com</p>
                     
                     </div>
-                    <div className=' flex justify-center items-center text-2xl p-10 '>
-                    
-                    </div>
+
             
             </div>
             </div>
