@@ -122,7 +122,7 @@ const Navbar = () => {
     <img src="" alt="logo" className="text-white" />
         </div> */}
             <div className=
-                    " w-[85%] mx-auto text-white font-medium text-2xl">
+                    " w-[85%] mx-auto text-white font-medium text-xl">
                     <div className=' flex justify-between'>
                         <div><img src="" alt="logo" className="text-white" /></div>
                         <div className=''
