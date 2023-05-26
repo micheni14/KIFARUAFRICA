@@ -7,7 +7,7 @@ export default {
       container: "80%",
       mobile: "90%",
     },
-    colors: {
+      colors: {
       ourRed: "#9f1c0a",
       ourGreen: "#3b8642",
     },},

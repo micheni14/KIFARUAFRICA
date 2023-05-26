@@ -16,12 +16,12 @@ const handleSubmit = (e) => {
 };
 
     return (
-        <div className="bg-[#80808093] fixed top-0 left-0 right-0 bottom-0 my-auto h-full z-50 mx-auto flex justify-center items-center">
-        <div className="max-w-md mx-auto">
+        <div className="bg-[#80808093] fixed top-0 left-0 right-0 bottom-0  h-full z-50  flex justify-center items-center ">
+        <div className=" md:w-[500px] w-[77%]">
             <form
             onSubmit={handleSubmit}
-            className="bg-white shadow-md rounded px-8 pt-8 pb-6 mb-4 "
-            style={{ width: '500px' }} // Adjust the width to make it bigger
+            className="bg-white    w-full rounded px-8 pt-8 pb-6 mb-4 "
+    
             >
             <div className="mb-4">
                 <label
@@ -33,7 +33,7 @@ const handleSubmit = (e) => {
             <input
                 type="text"
                 id="name"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className=" appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 placeholder="Enter your name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -50,7 +50,7 @@ const handleSubmit = (e) => {
                 <input
                 type="email"
                 id="email"
-                className="shadow appearance-none border rounded w-full py-3 px-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className="appearance-none border rounded w-full py-3 px-6 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 placeholder="Enter your email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -66,7 +66,7 @@ const handleSubmit = (e) => {
             </label>
                 <textarea
                 id="message"
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                className=" appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 placeholder="Enter your message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}

@@ -66,12 +66,9 @@ const Navbar = () => {
                 smooth={true}
                 offset={-10}
             >
-            projects
+            Projects
             </Link>
                     </li>
-                    <li className="cursor-pointer">
-        <RouterLink  to='/blog'>Blog</RouterLink>
-            </li>
             <li className="cursor-pointer">
             <Link
                 activeClass="active"
@@ -136,7 +133,7 @@ const Navbar = () => {
 
                         </div>
                     </div>
-        <ul className="flex  flex-col space-y-10 text-center ">
+        <ul className="flex  flex-col space-y-8 text-center ">
             <li className="cursor-pointer">
             <Link
             onClick={() => setsidebar(!sidebar)} 
@@ -173,19 +170,6 @@ const Navbar = () => {
             projects
             </Link>
                     </li>
-                    <li className="cursor-pointer">
-            {/* <Link
-            onClick={() => setsidebar(!sidebar)} 
-                activeClass="active"
-                to="Blog"
-                spy={true}
-                smooth={true}
-                offset={-10}
-            >
-                Blog
-            </Link> */}
-            <RouterLink  to='/blog'>Blog</RouterLink>
-            </li>
             <li className="cursor-pointer">
             <Link
             onClick={() => setsidebar(!sidebar)} 
@@ -198,8 +182,8 @@ const Navbar = () => {
                 Contact
             </Link>
                         </li>
-                        <div className="mr-10 ">
-                <button className="bg-ourGreen px-6 py-4 rounded-full">Get started</button>
+                        <div className=" ">
+                <button className="bg-ourGreen px-6 py-4 rounded-full ">Get started</button>
         </div>
         </ul>
         <div>
